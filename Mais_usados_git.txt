@@ -319,7 +319,7 @@ git push origin main
 
 
 ============================================================
-15) SUBIR TUDO NOVAMENTE AO GITHUB
+15) SUBIR TUDO AO GITHUB
 ============================================================
 
 cd caminho/para/projeto
@@ -376,6 +376,61 @@ git commit -m "Limpando cache"
 Testar:
 git status
 
+=================================================
+GUIA DE ESTUDO: GESTÃO DE COMMITS E HISTÓRICO
+==================================================
+
+1. REMOVER COMMITS RECENTES (INDIVIDUALMENTE)
+--------------------------------------------------
+A) Remover commit, mas MANTER os arquivos alterados:
+   $ git reset --soft HEAD~1
+
+B) Remover commit e APAGAR todas as alterações:
+   $ git reset --hard HEAD~1
+
+C) Alterar apenas o TEXTO da última mensagem:
+   $ git commit --amend -m "Nova mensagem"
+
+2. REMOVER COMMITS ANTIGOS (REBASE INTERATIVO)
+--------------------------------------------------
+1. Ver histórico: $ git log --oneline
+2. Iniciar rebase: $ git rebase -i HEAD~X (X = qtd commits)
+3. No editor: 
+   - Use 'drop' para apagar o commit e a mensagem.
+   - Use 'reword' para apenas trocar o texto da mensagem.
+4. Salve e feche.
+
+3. RESET TOTAL (APAGAR TODAS AS MENSAGENS E COMMITS)
+--------------------------------------------------
+Cenário: Quer começar o histórico do zero mantendo o código atual.
+
+1. Criar branch temporária órfã:
+   $ git checkout --orphan temp_branch
+
+2. Adicionar arquivos e criar o novo "Commit Inicial":
+   $ git add -A
+   $ git commit -m "Initial commit (histórico limpo)"
+
+3. Substituir a branch antiga:
+   $ git branch -D main
+   $ git branch -m main
+
+4. SINCRONIZAR COM O GITHUB (REMOTO)
+--------------------------------------------------
+Sempre que você altera o histórico local, deve forçar:
+   $ git push origin <nome-da-branch> --force
+
+!!! AVISO DE SEGURANÇA !!!
+O comando --force sobrescreve o servidor. Use apenas em 
+repositórios pessoais ou com aviso prévio à equipe.
+
+=================================================
+Limpar todos os commits
+==================================================
+git reset $(git rev-list --max-parents=0 --HEAD)
+git add .
+git commit -m "Initial commit"
+git push origin main --force
 
 ============================================================
 FIM DO GUIA COMPLETO

@@ -1,4 +1,4 @@
-# 🔧 Guia Prático de Git & GitHub
+# Guia Prático de Git & GitHub
 
 Este repositório reúne **anotações, comandos e arquivos de apoio** para o uso do **Git e do GitHub**, com foco em produtividade, organização de projetos e versionamento de código.
 
@@ -6,9 +6,9 @@ Ideal para **iniciantes** e também para quem quer ter um **material rápido de 
 
 ---
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 
-### 🚫 .gitignore
+### .gitignore
 Arquivo responsável por definir **quais arquivos e pastas não devem ser versionados** pelo Git, como:
 - `node_modules`
 - arquivos temporários
@@ -19,7 +19,7 @@ Essencial para manter o repositório limpo e profissional.
 
 ---
 
-### 📑 Abas_github.txt
+### Abas_github.txt
 Lista e explicação das **principais abas do GitHub**, como:
 - Code
 - Issues
@@ -32,7 +32,7 @@ Lista e explicação das **principais abas do GitHub**, como:
 
 ---
 
-### ⭐ Mais_usados_git.txt
+### Mais_usados_git.txt
 Contém os **comandos Git mais utilizados**, incluindo:
 - inicialização de repositório
 - versionamento de arquivos
@@ -43,7 +43,7 @@ Perfeito como **cola rápida** no dia a dia.
 
 ---
 
-### 📘 README.md
+### README.md
 Arquivo principal do repositório, responsável por:
 - explicar o objetivo do projeto
 - documentar a estrutura
@@ -53,7 +53,7 @@ Arquivo principal do repositório, responsável por:
 
 ---
 
-### 🌐 criar_dominio_github.txt
+### criar_dominio_github.txt
 Passo a passo para:
 - configurar **domínio personalizado**
 - usar **GitHub Pages**
@@ -63,7 +63,7 @@ Muito útil para portfólios e sites estáticos.
 
 ---
 
-### 📄 readme_comandos.txt
+### readme_comandos.txt
 Guia prático sobre:
 - como escrever um bom `README.md`
 - estrutura recomendada
@@ -72,7 +72,7 @@ Guia prático sobre:
 
 ---
 
-## 🎯 Objetivo do Repositório
+## Objetivo do Repositório
 
 - Centralizar conhecimento sobre Git e GitHub  
 - Servir como material de estudo e consulta  
@@ -81,7 +81,7 @@ Guia prático sobre:
 
 ---
 
-## 🛠️ Requisitos
+## Requisitos
 
 - Git instalado
 - Conta no GitHub
@@ -89,7 +89,7 @@ Guia prático sobre:
 
 ---
 
-## 📌 Observações
+## Observações
 
 Este repositório é **didático e prático**, focado em exemplos reais e comandos mais usados no mercado.
 
@@ -97,9 +97,9 @@ Sinta-se à vontade para clonar, estudar e evoluir os conteúdos.
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Orlando Conceição**  
 Back-end Developer  
 
-📧 Contato: orlandoconceicao94@gmail.com
+Contato: orlandoconceicao94@gmail.com
