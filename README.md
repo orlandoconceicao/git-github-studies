@@ -99,7 +99,8 @@ Sinta-se à vontade para clonar, estudar e evoluir os conteúdos.
 
 ## Autor
 
-**Orlando Conceição**  
-Back-end Developer  
+**Orlando Conceição Vilhalba de Almeida**
 
-Contato: orlandoconceicao94@gmail.com
+Desenvolvedor Backend em formação, utilizando Git e GitHub para versionamento, colaboração e organização de projetos de software.
+
+GitHub: [orlandoconceicao](https://github.com/orlandoconceicao)
